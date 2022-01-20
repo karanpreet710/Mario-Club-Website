@@ -3,7 +3,7 @@ html, body{
  height:100%;
  max-width:100%;
  margin:0;
- overflow:hidden;  
+ overflow:hidden;
 }
 
 .sky{
@@ -46,7 +46,7 @@ html, body{
  height:85px;
  width:80px;
  position:absolute;
- top:70px;
+ top:75px;
  left:0;
  animation-name: drive;
  animation-duration: 7s;
@@ -77,8 +77,8 @@ html, body{
 }
 
 @keyframes wind{
- from{left:-300px}
- to{left:100%}
+ from{left:0px}
+ to{left:80%}
 }
 
 @keyframes jump{
